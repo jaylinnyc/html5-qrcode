@@ -1,5 +1,10 @@
 "use strict";
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Html5Qrcode = void 0;
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
@@ -891,6 +896,8 @@ var Html5Qrcode = /*#__PURE__*/function () {
  * Complete Scanner build on top of {@link Html5Qrcode}.
  */
 
+
+exports.Html5Qrcode = Html5Qrcode;
 
 _defineProperty(Html5Qrcode, "DEFAULT_WIDTH", 300);
 
